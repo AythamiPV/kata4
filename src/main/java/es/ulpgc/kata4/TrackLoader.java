@@ -1,2 +1,7 @@
-package es.ulpgc.kata4;public interface TrackLoader {
+package es.ulpgc.kata4;
+
+import java.util.List;
+
+public interface TrackLoader {
+    List<Track> loadAll();
 }
